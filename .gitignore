@@ -1,0 +1,41 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+env.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Generated files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.msi
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+

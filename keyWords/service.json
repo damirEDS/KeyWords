@@ -1,0 +1,50 @@
+{
+  "digital signature": {
+    "service": "ИС «Единая система электронного доку-ментооборота (ЕСЭД)»",
+    "service_code": "bizservice-bussrv-CI11772"
+  },
+  "goal_setting": {
+    "service": "Платформа Целеполагание ERG",
+    "service_code": "bizservice-bussrv-CI133696"
+  },
+  "outlook": {
+    "service": "Корпоративная электронная почта",
+    "service_code": "bizservice-bussrv-CI10047"
+  },
+  "printer": {
+    "service": "Периферийное ИТ-оборудование и оргтехника",
+    "service_code": "bizservice-bussrv-CI10004"
+  },
+  "procurement_portal": {
+    "service": "ИС Портал закупок Куб Данных",
+    "service_code": "bizservice-bussrv-CI10026"
+  },
+  "red_payments": {
+    "service": "ИС Красные платежи",
+    "service_code": "bizservice-bussrv-CI15094"
+  },
+  "scanner": {
+    "service": "Периферийное ИТ-оборудование и оргтехника",
+    "service_code": "bizservice-bussrv-CI10079"
+  },
+  "smart_erg": {
+    "service": "Приложение Smart ERG",
+    "service_code": "bizservice-bussrv-CI19200"
+  },
+  "sono": {
+    "service": "СОНО система отработки налоговой отчетности",
+    "service_code": "bizservice-bussrv-CI108533"
+  },
+  "timesheet": {
+    "service": "ИС «Электронный табель»",
+    "service_code": "bizservice-bussrv-CI141339"
+  },
+  "VPN": {
+    "service": "Удаленного подключения с помощью OpenVPN",
+    "service_code": "bizservice-bussrv-CI10068"
+  },
+  "zeppelin": {
+    "service": "ИС Zeppelin",
+    "service_code": "bizservice-bussrv-CI14189"
+  }
+}
