@@ -10,10 +10,6 @@ vectorizer = joblib.load('vectorizer.pkl')
 # Initialize morphological analyzer
 morph = pymorphy2.MorphAnalyzer()
 
-# Load service data
-with open('service.json', encoding='utf-8') as json_file:
-    data = json.load(json_file)
-
 # Cache for morphological analysis results
 morph_cache = {}
 
@@ -48,6 +44,4 @@ def predict_keyword(input_sentence):
 inputSentence = "проблема co принтером"
 predictedKeyword = predict_keyword(inputSentence)
 # If the key is found, return the value of the "service" property
-service_value = data[predictedKeyword]["service"]
-print(service_value)
 print("Predicted keyword:", predictedKeyword)
